@@ -1,0 +1,35 @@
+{
+    "name": "sirajunnasihin/phphtmltodoc",
+    "description": "PHP HTML to DOC CONVERTER",
+    "authors": [
+        {
+            "name": "Sirajun Nasihin",
+            "role": "Developer"
+        }
+    ],
+    "keywords": [
+        "laravel","html","doc"
+    ],
+    "homepage": "https://github.com/sirajunnasihin/phphtmltodoc",
+    "license": "MIT",
+    "require": {
+         "php": ">=5.6"
+    },
+    "require-dev": {},
+    "autoload": {
+        "psr-4": {
+            "sirajunnasihin\\PHPHtmlToDoc\\": "src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "sirajunnasihin\\PHPHtmlToDoc\\PHPHtmlToDocServiceProvider"
+            ],
+            "aliases": {
+                "PHPHtmlToDoc": "sirajunnasihin\\PHPHtmlToDoc\\Facades\\PHPHtmlToDoc"
+            }
+        }
+    },
+    "minimum-stability": "stable"
+}
