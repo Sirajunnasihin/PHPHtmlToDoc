@@ -3,22 +3,21 @@
     "description": "PHP HTML to DOC CONVERTER",
     "authors": [
         {
-            "name": "Sirajun Nasihin",
+            "name": "Codexworld and published by Sirajun Nasihin",
             "role": "Developer"
         }
     ],
     "keywords": [
         "laravel","html","doc"
     ],
-    "homepage": "https://github.com/sirajunnasihin/phphtmltodoc",
-    "license": "MIT",
+    "homepage": "https://github.com/Sirajunnasihin/PHPHtmlToDoc",
     "require": {
          "php": ">=5.6"
     },
     "require-dev": {},
     "autoload": {
         "psr-4": {
-            "sirajunnasihin\\PHPHtmlToDoc\\": "src"
+            "PHPHtmlToDoc\\": "src"
         }
     },
     "extra": {
